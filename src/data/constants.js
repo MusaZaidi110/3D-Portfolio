@@ -76,7 +76,8 @@ export const skills = [
       },
       {
         name: "REST Api",
-        image: "data:image/png;base64,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",
+        image:
+          "data:image/png;base64,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",
       },
       {
         name: ".Net Core",
@@ -229,13 +230,7 @@ export const projects = [
       "Mr.CarLift is a full-stack car rental and ride-sharing platform designed to seamlessly connect vehicle owners with users seeking affordable and reliable transportation. Built using React.js (frontend), Node.js (backend), and MySQL (database), the application streamlines the process of vehicle discovery, booking, and management while prioritizing user experience, security, and scalability.",
     image:
       "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/Upwork%20mrcarlift%20Thimbnail.png?raw=true",
-    tags: [
-      "React Js",
-      "MySQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+    tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "Web App",
     github: "https://github.com/MusaZaidi110/Mr.Carlift",
     webapp: "https://mrcarlift.netlify.app/",
@@ -270,7 +265,16 @@ export const projects = [
       "xPal is a real-time messaging platform inspired by WhatsApp Web, designed to deliver seamless, secure, and synchronized communication across devices. Built with .NET Core (backend) and React.js (frontend), xPal empowers users to send messages, share media, and stay connected through a lightweight, browser-based interface that mirrors mobile app functionality.",
     image:
       "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/xPal%201.png?raw=true",
-    tags: ["React Js", "SQL Server", "Node Js", "Express Js", "Redux", "Socket.IO", "RealTime Dashboard", "Communications"],
+    tags: [
+      "React Js",
+      "SQL Server",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Socket.IO",
+      "RealTime Dashboard",
+      "Communications",
+    ],
     category: "Web App",
     github: "",
     webapp: "https://www.xpal.com/",
@@ -283,13 +287,7 @@ export const projects = [
       "The application streamlines property discovery, detailed listing views, secure booking, and inquiry management while prioritizing user experience, security, and scalability. Whether users are searching for apartments, houses, or commercial spaces, RentUp simplifies the process of finding and securing the right property with intuitive search filters, clear visuals, and a smooth transaction flow.",
     image:
       "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/refs/heads/main/Thumb-Nails/RentUp.png",
-    tags: [
-      "React Js",
-      "MySQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+    tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "Web App",
     github: "",
     webapp: "https://property-buying-selling.netlify.app/",
@@ -301,16 +299,101 @@ export const projects = [
     description:
       "The application simplifies destination discovery, room selection, booking management. Whether users are planning a family trip, a honeymoon, or a weekend getaway, It provides an intuitive interface with advanced filters, high-quality visuals, and a streamlined booking flow to ensure users can find and secure the perfect stay for their vacation.",
     image:
-      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/4b4a53f736c1225604ccafc48fcbd8a992ab27cd/Thumb-Nails/RentUp.png",
-    tags: [
-      "React Js",
-      "MySQL",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/beachresort.png?raw=true",
+    tags: ["React Js", "MySQL", "Node Js", "Express Js", "Redux"],
     category: "Web App",
     github: "",
     webapp: "https://vacation-room-booking.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Vacation Planner",
+    date: "Jun 2022- Aug 2022",
+    description:
+      "Vacation Planner is a full-stack web application designed to help users seamlessly plan their vacations and book rooms in hotels or resorts with ease and confidence.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/Hotelier.png?raw=true",
+    tags: ["React Js", "Redux"],
+    category: "Web App",
+    github: "",
+    webapp: "https://plan-vacation-withus.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Interactive Modern Interface",
+    date: "Jun 2022- Aug 2022",
+    description:
+      "Interactive Interface with Modern Animation is a frontend-focused project showcasing clean, engaging user interfaces enriched with smooth, modern animations to enhance user experience.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/brainwave.png?raw=true",
+    tags: ["React Js", "Redux"],
+    category: "Web App",
+    github: "",
+    webapp: "https://brainwave-interface.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "E-Commerce Modern Interface",
+    date: "Sep 2022- Dec 2022",
+    description:
+      "The application features modern, interactive UI elements, dynamic animations, and responsive design, ensuring a smooth and visually appealing experience across devices.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/ecommerce-interface.png?raw=true",
+    tags: ["React Js", "Redux"],
+    category: "Web App",
+    github: "",
+    webapp: "https://ecommerce-interface.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "7 Emirates UAE",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "The application features real-time ride listings, location-based ride matching, interactive maps, and secure booking management to enhance the user experience while prioritizing security, scalability, and ease of use.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/7emirates.png?raw=true",
+    tags: ["HTML", "CSS", "JS"],
+    category: "Web App",
+    github: "",
+    webapp: "https://7emirates-uae.netlify.app/",
+  },
+  {
+    id: 10,
+    title: "CoffeeLatay",
+    date: "Feb 2023 - Apr 2023",
+    description:
+      "CoffeeHub is a modern, responsive web application designed for coffee enthusiasts and cafés to showcase, explore, and order premium coffee blends online.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/coffeelatay.png?raw=true",
+    tags: ["HTML", "CSS", "JS"],
+    category: "Web App",
+    github: "",
+    webapp: "https://coffeelatey.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "FreshCart",
+    date: "Apr 2023 - Jun 2023",
+    description:
+      "FreshCart is a modern, full-stack web application designed to deliver fresh vegetables and fruits directly to customers’ doorsteps.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/freshcart.png?raw=true",
+    tags: ["HTML", "CSS", "JS"],
+    category: "Web App",
+    github: "",
+    webapp: "https://getfood-byus.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "RealEstate",
+    date: "Jun 2023 - Sep 2023",
+    description:
+      "RealEstate Hub is a full-stack web application designed to simplify property discovery, buying, and renting for users while enabling agents and property owners to efficiently manage their listings.",
+    image:
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/realestate.png?raw=true",
+    tags: ["HTML", "CSS", "JS"],
+    category: "Web App",
+    github: "",
+    webapp: "https://realestate-builder.netlify.app/",
   },
 ];
