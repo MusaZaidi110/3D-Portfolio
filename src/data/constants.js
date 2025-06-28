@@ -222,13 +222,13 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 1,
     title: "Mr.Carlift",
     date: "Dec 2024 - Feb 2025",
     description:
       "Mr.CarLift is a full-stack car rental and ride-sharing platform designed to seamlessly connect vehicle owners with users seeking affordable and reliable transportation. Built using React.js (frontend), Node.js (backend), and MySQL (database), the application streamlines the process of vehicle discovery, booking, and management while prioritizing user experience, security, and scalability.",
     image:
-      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/4b4a53f736c1225604ccafc48fcbd8a992ab27cd/Thumb-Nails/Upwork%20mrcarlift%20Thimbnail.png",
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/Upwork%20mrcarlift%20Thimbnail.png?raw=true",
     tags: [
       "React Js",
       "MySQL",
@@ -241,13 +241,13 @@ export const projects = [
     webapp: "https://mrcarlift.netlify.app/",
   },
   {
-    id: 9,
+    id: 2,
     title: "Ahdus Trachten",
     date: "Feb 2025 - Mar 2025",
     description:
       "AhdusTrachten is a modern, user-centric e-commerce platform specializing in premium leather Trachten (traditional Bavarian garments), offering a seamless digital experience for customers to explore, customize, and order bespoke leatherwear. Built with React.js (frontend) and Node.js (backend), the website bridges heritage craftsmanship with cutting-edge technology, ensuring intuitive navigation, secure transactions, and transparent process tracking.",
     image:
-      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/main/Thumb-Nails/Upwork%20AhdusTrachten%20Thimbnail.png",
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/Upwork%20AhdusTrachten%20Thimbnail.png?raw=true",
     tags: [
       "ReactJs",
       "Redux",
@@ -263,16 +263,54 @@ export const projects = [
     webapp: "https://ahdustrachten.netlify.app/",
   },
   {
-    id: 0,
+    id: 3,
     title: "xPal",
     date: "JUNE 2023 – FEB 2024",
     description:
       "xPal is a real-time messaging platform inspired by WhatsApp Web, designed to deliver seamless, secure, and synchronized communication across devices. Built with .NET Core (backend) and React.js (frontend), xPal empowers users to send messages, share media, and stay connected through a lightweight, browser-based interface that mirrors mobile app functionality.",
     image:
-      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/4b4a53f736c1225604ccafc48fcbd8a992ab27cd/Thumb-Nails/xPal%201.png",
+      "https://github.com/MusaZaidi110/All-Assests/blob/main/Thumb-Nails/xPal%201.png?raw=true",
     tags: ["React Js", "SQL Server", "Node Js", "Express Js", "Redux", "Socket.IO", "RealTime Dashboard", "Communications"],
     category: "Web App",
     github: "",
     webapp: "https://www.xpal.com/",
+  },
+  {
+    id: 4,
+    title: "RentUp",
+    date: "Jan 2022- mar 2022",
+    description:
+      "The application streamlines property discovery, detailed listing views, secure booking, and inquiry management while prioritizing user experience, security, and scalability. Whether users are searching for apartments, houses, or commercial spaces, RentUp simplifies the process of finding and securing the right property with intuitive search filters, clear visuals, and a smooth transaction flow.",
+    image:
+      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/refs/heads/main/Thumb-Nails/RentUp.png",
+    tags: [
+      "React Js",
+      "MySQL",
+      "Node Js",
+      "Express Js",
+      "Redux",
+    ],
+    category: "Web App",
+    github: "",
+    webapp: "https://property-buying-selling.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Beach Resort",
+    date: "Apr 2022- Jun 2022",
+    description:
+      "The application simplifies destination discovery, room selection, booking management. Whether users are planning a family trip, a honeymoon, or a weekend getaway, It provides an intuitive interface with advanced filters, high-quality visuals, and a streamlined booking flow to ensure users can find and secure the perfect stay for their vacation.",
+    image:
+      "https://raw.githubusercontent.com/MusaZaidi110/All-Assests/4b4a53f736c1225604ccafc48fcbd8a992ab27cd/Thumb-Nails/RentUp.png",
+    tags: [
+      "React Js",
+      "MySQL",
+      "Node Js",
+      "Express Js",
+      "Redux",
+    ],
+    category: "Web App",
+    github: "",
+    webapp: "https://vacation-room-booking.netlify.app/",
   },
 ];
